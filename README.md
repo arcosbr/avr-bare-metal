@@ -1,6 +1,3 @@
-Claro, aqui está um `README.md` em Inglês para o seu repositório no GitHub:
-
-```markdown
 # AVR Bare Metal Projects
 
 This repository contains a collection of bare-metal projects for testing purposes on various AVR microcontrollers. These projects are intended as drafts and examples for those interested in AVR programming without an operating system.
