@@ -1,0 +1,8 @@
+[
+    {
+        "command": "C:\\Users\\anderson.costa\\.platformio\\packages\\toolchain-atmelavr\\bin\\avr-gcc.exe -o .pio\\build\\mega2560\\src\\main.o -c -fno-fat-lto-objects -std=c11 -mmcu=atmega2560 -Os -Wall -ffunction-sections -fdata-sections -fmessage-length=0 -O2 -g -ffunction-sections -funsigned-char -fdata-sections -Wall -Wextra -nostdlib -Wunused-parameter -DF_CPU=16000000L -DPLATFORMIO=60115 -DARDUINO_AVR_MEGA2560 -DDEBUG -Iinclude -Isrc src\\main.c",
+        "directory": "C:\\Code\\avr\\native",
+        "file": "src\\main.c",
+        "output": ".pio\\build\\mega2560\\src\\main.o"
+    }
+]

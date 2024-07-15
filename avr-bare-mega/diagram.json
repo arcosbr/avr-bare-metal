@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Anderson Costa",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 20, "left": 50, "attrs": {} },
+    { "type": "wokwi-lcd1602", "id": "lcd", "top": 252, "left": 50, "attrs": { "pins": "i2c" } }
+  ],
+  "connections": [
+    [ "mega:GND.2", "lcd:GND", "black", [ "v24", "*", "h-20" ] ],
+    [ "mega:5V", "lcd:VCC", "red", [ "v28", "*", "h-16" ] ],
+    [ "mega:A4", "lcd:SDA", "#008000", [ "v32", "*", "h-12" ] ],
+    [ "mega:A5", "lcd:SCL", "gold", [ "v36", "*", "h-8" ] ]
+  ]
+}
